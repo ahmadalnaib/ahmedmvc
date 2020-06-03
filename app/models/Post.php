@@ -10,4 +10,10 @@ class Post {
         $this->db=new Database;
     }
 
+
+    public function getPost() {
+        $this->db->query("SELECT * FROM posts");
+        return $this->db->resultSet();
+
+    }
 }
