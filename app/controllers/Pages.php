@@ -22,4 +22,12 @@ $this->view('pages/about',$data);
 }
 
 
+public function tech() {
+    $data=['title'=>' tech'];
+
+$this->view('pages/tech',$data);
+
+}
+
+
 }

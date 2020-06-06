@@ -6,7 +6,7 @@
 <h1><?php echo $data['title']?></h1>
 <p class="lead">I spend my days designing and developing web applications
 </p>
-<a href="#"> Read more</a>
+<a href="<?php echo URLROOT ?>/pages/tech"> Read more</a>
 </div>
 
 <div>

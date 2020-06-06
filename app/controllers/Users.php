@@ -30,6 +30,32 @@ public function register()
 
       //load view
       $this->view("users/register",$data);
+  }
+}
+
+
+
+public function login()
+{
+  //Check for post
+
+  if($_SERVER['REQUEST_METHOD']=="POST") {
+    //PROCESS FORM
+  } else {
+    //init data
+    $data=[
+     
+     
+      'email'=>'',
+      'password'=>'',
+      'email_err'=>'',
+      'password_err' =>'',
+     
+
+    ];
+
+      //load view
+      $this->view("users/login",$data);
 
 
 

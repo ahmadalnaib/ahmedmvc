@@ -10,7 +10,8 @@ For a long time I searched for a career well-suited to both my creative and anal
 
 I’ve always been very self-disciplined so I decided to self-teach. I started learning straight away and haven’t looked back since!
 </p>
-
+<hr>
+<p>Technologists need the latest skills to do their jobs effectively. And technology leaders need visibility into how their teams work to put the right people on the right projects. Pluralsight gives you both—the skills and data you need to succeed.</p>
 </div>
 </main>
 
