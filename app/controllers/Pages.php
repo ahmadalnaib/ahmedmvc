@@ -15,7 +15,7 @@ $this->view('pages/index',$data);
 }
 
 public function about() {
-    $data=['title'=>'about'];
+    $data=['title'=>'about me'];
 
 $this->view('pages/about',$data);
 

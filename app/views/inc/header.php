@@ -9,11 +9,7 @@
     <title><?php echo SITENAME ?></title>
 </head>
 <body>
+<?php require APPROOT . '/views/inc/navbar.php'?>
 
-<header>
-    <nav>
-        <h1></h1>
-    </nav>
-</header>
 
 

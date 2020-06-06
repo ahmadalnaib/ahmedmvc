@@ -10,9 +10,14 @@ define('DB_NAME','shareposts');
 define('APPROOT',dirname(dirname(__FILE__)));
 
 //url root
-define('URLROOT','http://localhost/shareposts');
+define('URLROOT','http://localhost/ahmedmvc/');
 
 
 //site name
 
 define('SITENAME',"Ahmed Habeeb");
+
+
+//App Version
+
+define("APPVERSION","1.0.0");
