@@ -10,7 +10,7 @@
 </div>
 
 <div>
-  <img src="./public/img/main.svg" alt="">
+  <img class="moving-img" src="./public/img/main.svg" alt="">
 </div>
 
 </div>
