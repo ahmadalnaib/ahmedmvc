@@ -37,8 +37,8 @@ class Database {
     }
 
 //Prepare statement with query
-public  function query($sql) {
-        $this->stmt=$this->dbh->prepare($sql);
+public function query($sql) {
+$this->stmt=$this->dbh->prepare($sql);
 }
 
 //Bind values
@@ -60,11 +60,11 @@ public function bind($param,$value,$type=null) {
             }
         }
 
-        $this->stmt->bindValue($param,$value,$type);
+    $this->stmt->bindValue($param,$value,$type);
 }
 //Execute the prepared statement
 public  function execute() {
-        return $this->stmt->execute();
+return $this->stmt->execute();
 }
 
 
