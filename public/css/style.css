@@ -47,6 +47,7 @@ main {
     margin-left: 30rem;
     padding: 4.6rem;
     padding-top: 10rem;
+   
 
 }
 
@@ -58,6 +59,7 @@ main {
     transition: all 200ms ease;
     padding-top: 3rem;
     /* overflow: scroll; */
+   
 }
 
 .navbar-nav {
@@ -73,6 +75,8 @@ main {
 
 .nav-item {
     width: 100%;
+    border-bottom: 1px solid #2f3337;
+    font-size: 2rem;
 }
 
 .nav-item:nth-child(5){
@@ -160,7 +164,9 @@ main {
     .navbar {
         bottom: 0;
         width: 100vw;
-        height: 5rem;
+        height: 8rem;
+        text-align: center;
+        align-items: center;
     }
     .link-text{
         display: none;
@@ -169,10 +175,12 @@ main {
 
     .navbar-nav {
         flex-direction: row;
+        align-items: center;
     }
 
     .nav-link {
         justify-content: center;
+        align-items: center;
     }
 
     main {
@@ -301,4 +309,12 @@ flex: 1 1 40rem;
 
 img {
     width: 100%;
+}
+
+
+/* err msg */
+
+.err {
+    color: red;
+    line-height: 1.5;
 }
